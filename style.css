@@ -25,7 +25,15 @@ body {
     border: 10px solid;
 
     
-} 
+}
+
+header h3 {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 5px;
+}
 
 .titre {
     font-family: 'AdventureTime', sans-serif;
