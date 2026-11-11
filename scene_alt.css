@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(assets/background/les.webp);
+    background-position-x: -50px;
+    background-position-y: -100px;
+    background-size: 1650px;
+    background-repeat: no-repeat;
+}
+
+header {
+    text-align: center;
+    border: 5px solid black;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(0, 255, 247);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+#trouver {
+    color: black;
+    text-decoration: none;
+}
+
+.reponse {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+    border-radius: 12px;
+    text-align: center;
+    display: block;
+    background-color: white;
+    transition: transform 0.3s ease;
+}
+
+.reponse:hover {
+    transform: scale(1.2);
+}

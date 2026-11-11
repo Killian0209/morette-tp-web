@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(assets/background/rvlf.webp);
+    background-position-x: -50px;
+    background-position-y: -100px;
+    background-size: 1650px;
+    background-repeat: no-repeat;
+}
+
+header {
+    text-align: center;
+    border: 5px solid black;
+    color: black;
+    background-color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+    border-radius: 12px;
+    text-align: center;
+    display: block;
+    background-color: white;
+
+}
+
+.reponse {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+    border-radius: 12px;
+    text-align: center;
+    display: block;
+    background-color: white;
+    transition: transform 0.3s ease;
+}
+
+.reponse:hover {
+    transform: scale(1.2);
+}
+
+img {
+    width: 200px;
+}
