@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'AdventureTime';
+    src: url('assets/police/AdventureTimeLogo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+header {
+    text-align: center;
+    border: 5px solid black;
+    color: white;
+}
+
+body {
+    background-image: url(assets/background/pagesuivante.jpg);
+    font-family: 'AdventureTime', sans-serif;
+    background-position: top;
+    background-size: 1600px;
+    background-repeat: no-repeat;
+}

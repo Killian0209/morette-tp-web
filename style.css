@@ -3,8 +3,8 @@
 }
 
 @font-face {
-    font-family: 'AdventureTime'; /* Le nom de votre choix pour l'utiliser plus tard */
-    src: url('assets/police/AdventureTimeLogo.ttf') format('truetype'); /* Remplacez par le vrai nom du fichier */
+    font-family: 'AdventureTime';
+    src: url('assets/police/AdventureTimeLogo.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
