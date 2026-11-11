@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'AdventureTime';
+    src: url('assets/police/AdventureTimeLogo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+header {
+    text-align: center;
+    border: 5px solid white;
+    background-color: white;
+    color: black;
+    font-family: 'AdventureTime', sans-serif;
+}
+
+body {
+    background-image: url(assets/background/win.avif);
+    background-size: 1550px;
+    background-repeat: no-repeat;
+}
