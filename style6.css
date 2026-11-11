@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'AdventureTime';
+    src: url('assets/police/AdventureTimeLogo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+header {
+    text-align: center;
+    border: 5px solid white;
+    color: white;
+    font-family: 'AdventureTime', sans-serif;
+}
+
+body {
+    background-image: url(assets/background/paris.jpg);
+    background-position-x: -50px;
+    background-position-y: -100px;
+    background-size: 1600px;
+    background-repeat: no-repeat;
+}
+
+main h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+#un {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+    border-radius: 12px;
+    text-align: center;
+    display: block;
+    background-color: white;
+    transition: transform 0.3s ease;
+}
+
+#deux {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+    border-radius: 12px;
+    text-align: center;
+    display: block;
+    background-color: white;
+    transition: transform 0.3s ease;
+}
+
+#un:hover {
+    transform: scale(1.2);
+}
+
+#deux:hover {
+    transform: scale(1.2);
+}
+
+img {
+    width: 200px;
+}

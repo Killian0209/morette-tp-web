@@ -18,11 +18,7 @@ header {
 }
 
 body {
-    background-image: url(assets/background/toilettes.webp);
-    background-position-x: -50px;
-    background-position-y: -100px;
-    background-size: 1600px;
-    background-repeat: no-repeat;
+    background-color: rgb(71, 66, 66);
 }
 
 main h4 {
@@ -36,9 +32,7 @@ main h4 {
 }
 
 #un {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
-    color: black;
     border-radius: 12px;
     text-align: center;
     display: block;
@@ -47,14 +41,17 @@ main h4 {
 }
 
 #deux {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
-    color: black;
     border-radius: 12px;
     text-align: center;
     display: block;
     background-color: white;
     transition: transform 0.3s ease;
+}
+
+main p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
 }
 
 #un:hover {
@@ -68,3 +65,5 @@ main h4 {
 img {
     width: 200px;
 }
+
+
